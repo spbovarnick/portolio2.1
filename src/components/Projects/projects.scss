@@ -1,0 +1,42 @@
+#projects {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 350px;
+        max-width: 600px;
+        height: 100vh;
+        margin: 2rem 0;
+        img {
+            width: 100%;
+        }
+        h2 {
+            margin: 1rem 0
+        }
+        .links {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin: .5rem 0;
+            a {
+                text-decoration: none;
+                transition: opacity .7s, scale .7s;
+                cursor: pointer;
+                background-color: rgb(190, 190, 190);
+                padding: .5rem;
+                border-radius: 1rem;
+            }
+            a:hover {
+                opacity: .7;
+                scale: 1.1;
+            }
+            a:active {
+                scale: .9;
+                opacity: 1;
+            }
+        }
+    }
+}

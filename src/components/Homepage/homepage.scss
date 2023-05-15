@@ -1,0 +1,54 @@
+#home {
+    min-width: 100%;
+    animation: fade-in .7s linear;
+    #homeDiv {
+        margin-top: 15vh;
+        padding: 4rem;
+        display: flex;
+        flex-direction: column;
+        h1 {
+            margin-bottom: 4rem;
+        }
+        h3 {
+            margin-bottom: 2rem;
+        }
+        #locationDiv {
+            display: flex;
+            align-items: center;
+            p {
+                padding-left: .5rem;
+            }
+            img {
+                display: inline;
+                width: 24px;
+                animation: infinite-spinning 5s infinite linear;
+            }
+        }
+    }
+}
+
+@keyframes infinite-spinning {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #home {
+        div {
+            margin-top: 5vh;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+#pagenotfound {
+    #flextainer {
+        margin: auto;
+        display: flex;
+        width: fit-content;
+        #text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        img {
+            width: 300px;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #flextainer {
+        flex-direction: column;
+    }
+}
