@@ -13,6 +13,8 @@ import markdown from '../../assets/icons/markdown.svg'
 import python from '../../assets/icons/python.svg'
 import bootstrap from '../../assets/icons/bootstrap.svg'
 import tools from '../../assets/icons/tools.svg'
+import ruby from '../../assets/icons/ruby.png'
+import rails from '../../assets/icons/rails.svg'
 
 export default function About() {
 
@@ -60,6 +62,10 @@ export default function About() {
                                         <td><img height="24px" src={python} /></td>
                                         <td>Python</td>
                                     </tr>
+                                    <tr>
+                                        <td><img height="24px" src={ruby} /></td>
+                                        <td>Ruby</td>
+                                    </tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -88,8 +94,8 @@ export default function About() {
                                         <td>TailwindCSS</td>
                                     </tr>
                                     <tr>
-                                        <td></td>
-                                        <td></td>
+                                        <td><img height="20px" src={rails} /></td>
+                                        <td>Ruby on Rails</td>
                                     </tr>
                                     </tbody>
                                 </table>
