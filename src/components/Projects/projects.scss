@@ -10,7 +10,7 @@
         max-width: 600px;
         height: 100vh;
         margin: 2rem 0;
-        img {
+        .mockup {
             width: 100%;
         }
         h2 {
@@ -28,6 +28,13 @@
                 background-color: rgb(190, 190, 190);
                 padding: .5rem;
                 border-radius: 1rem;
+                display: flex;
+                align-items: center;
+                .icon {
+                    cursor: pointer;
+                    width: 24px;
+                    margin-right: 5px;
+                }
             }
             a:hover {
                 opacity: .7;
