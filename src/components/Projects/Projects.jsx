@@ -17,8 +17,8 @@ export default function Projects() {
                     <img src={WAFMockup} className='mockup' />
                     <h2>World Arts Foundation - React and Rails Digital Archive</h2>
                     <div className="links">
-                        <a href='https://www.worldartsfoundation.org/archive-beta'><img src={globe} className='icon' /> Live Site</a>
-                        <a href='https://github.com/leeritter/waf'><img src={github} className='icon' /> GitHub Repo</a>
+                        <a href='https://www.worldartsfoundation.org/archive-beta' target='_blank'><img src={globe} className='icon' /> Live Site</a>
+                        <a href='https://github.com/leeritter/waf' target='_blank'><img src={github} className='icon' /> GitHub Repo</a>
                     </div>
                 </div>
             </FadeInSection>
